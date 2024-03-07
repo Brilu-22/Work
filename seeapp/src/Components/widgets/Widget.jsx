@@ -1,5 +1,4 @@
 import "./widgets.scss";
-import player1 from "./players/lebron James.png";
 
 const Widget = () => {
   return (
