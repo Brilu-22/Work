@@ -1,16 +1,19 @@
 .New {
+  overflow-x: hidden;
   width: 100%;
   height: 100vh;
   text-align: center;
 
   video {
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
+    overflow-x: hidden;
   }
 
   .landing {
     position: relative;
+    overflow-x: hidden;
 
     .things {
       position: absolute;
@@ -22,7 +25,7 @@
       justify-content: center;
       align-items: center;
       color: white;
-      width: 50%;
+      width: 30%;
       margin-left: 300px;
 
       &:nth-child(2) {
@@ -35,7 +38,7 @@
       justify-content: center;
       align-items: center;
       color: white;
-      width: 50%;
+      width: 30%;
     }
 
     .things3 {
@@ -94,7 +97,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin-left: 100px;
   color: white;
 }
