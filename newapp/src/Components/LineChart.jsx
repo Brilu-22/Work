@@ -63,7 +63,7 @@ export default function StockPriceChart() {
 
   return (
     <>
-      <canvas ref={chartRef} style={{ width: "600px", height: "400px" }} />
+      <canvas ref={chartRef} style={{ width: "400px", height: "50px" }} />
     </>
   );
 }

@@ -68,5 +68,5 @@ export default function BarChart() {
     };
   }, []);
 
-  return <canvas ref={chartRef} />;
+  return <canvas ref={chartRef} style={{ width: "400px", height: "400px" }} />;
 }

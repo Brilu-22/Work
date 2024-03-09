@@ -57,7 +57,7 @@ export default function PieChart() {
 
   return (
     <div>
-      <canvas ref={chartRef} width="300" height="200" />
+      <canvas ref={chartRef} width="200" height="150" />
     </div>
   );
 }

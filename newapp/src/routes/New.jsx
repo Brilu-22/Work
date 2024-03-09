@@ -7,16 +7,22 @@ import LineChart from "../Components/LineChart";
 
 function New() {
   return (
-    <div className="New">
-      <div className="landing">
-        <Navbar />
-        <div className="overlay">
-          <video src={video} autoPlay loop muted />
-          <div className="things">
-            <PieChart />
-            <BarChart className="bar" />
-            <LineChart className="Line" />
-          </div>
+    <div className="landing">
+      <Navbar />
+      <video src={video} autoPlay loop muted />
+      <div className="words">
+        <h1>NASA DATA</h1>
+        <p>Into the Unknown</p>
+        <div className="point">Explore</div>
+      </div>
+      <div className="things">
+        <BarChart />
+        <div />
+        <div className="things2">
+          <LineChart />
+        </div>
+        <div className="things3">
+          <PieChart />
         </div>
       </div>
     </div>
