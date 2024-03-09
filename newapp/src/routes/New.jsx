@@ -19,10 +19,10 @@ function New() {
         <BarChart />
         <div />
         <div className="things2">
-          <LineChart />
+          <PieChart />
         </div>
         <div className="things3">
-          <PieChart />
+          <LineChart />
         </div>
       </div>
     </div>
